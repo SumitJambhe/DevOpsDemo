@@ -74,7 +74,7 @@ public class RegisterUserDemo {
 
 		//page load wait-
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-		System.out.println("Page Load Added");
+		System.out.println("Page Load Added See Changes");
 
 		//Implicit wait
 		driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
