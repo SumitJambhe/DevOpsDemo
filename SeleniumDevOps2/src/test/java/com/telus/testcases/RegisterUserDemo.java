@@ -78,6 +78,7 @@ public class RegisterUserDemo {
 
 		//Implicit wait
 		driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+		System.out.println("Implicit wait is zero");
 
 
 		// Maximize the application
