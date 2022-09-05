@@ -72,8 +72,8 @@ public class RegisterUserDemo {
 		//Creating instance of Chrome driver
 		driver = new ChromeDriver();
 
-		//page load wait
-		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+		//page load wait-
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 
 		//Implicit wait
 		driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
