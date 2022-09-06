@@ -15,7 +15,7 @@ public class RegisterUserDemo {
 
 	public WebDriver driver;
 
-	//Parameterization of input values
+	//Parameterization of input values-Developed by Sumit Jambhe
 	String url                  = "https://nxtgenaiacademy.com/";
 	String expRegTitilValue     = "Register For Demo";
 	String firstNameValue       = "Sumit";
